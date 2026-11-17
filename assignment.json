@@ -1,14 +1,15 @@
 {
+  "campaign": "three_arm_20261117",
   "station": "pc2",
   "models": [
     {
-      "folder": "Kimi K 2.5",
-      "id": "moonshotai/kimi-k2.5",
+      "folder": "Claude Haiku 4.5",
+      "id": "anthropic/claude-haiku-4.5",
       "transport": "openrouter"
     },
     {
-      "folder": "Claude Haiku 4.5",
-      "id": "anthropic/claude-haiku-4.5",
+      "folder": "Gemma 4 31B",
+      "id": "google/gemma-4-31b-it",
       "transport": "openrouter"
     },
     {
@@ -17,14 +18,13 @@
       "transport": "openrouter"
     }
   ],
-  "planned_workflows": 1440,
-  "repeats": 20,
+  "repeats": 15,
   "physics": 6,
   "arms": [
     "Card_Only",
     "Document_Top3",
-    "KG_ver1",
-    "KG_ver2"
+    "KG"
   ],
-  "ownership": "Run this bundle on its assigned PC only. These models are excluded from PC1 continuation."
+  "planned_workflows": 810,
+  "workflows_per_model": 270
 }
