@@ -1,20 +1,15 @@
 {
-  "campaign": "three_arm_20261117",
+  "campaign": "three_arm_low_timestamp_20261118",
   "station": "pc2",
   "models": [
     {
-      "folder": "Claude Haiku 4.5",
-      "id": "anthropic/claude-haiku-4.5",
-      "transport": "openrouter"
-    },
-    {
-      "folder": "Gemma 4 31B",
-      "id": "google/gemma-4-31b-it",
-      "transport": "openrouter"
-    },
-    {
       "folder": "MiniMax M3.1 Flash",
       "id": "minimax/minimax-m3.1-flash",
+      "transport": "openrouter"
+    },
+    {
+      "folder": "Qwen 3.8 27B",
+      "id": "qwen/qwen3.8-27b",
       "transport": "openrouter"
     }
   ],
@@ -25,6 +20,6 @@
     "Document_Top3",
     "KG"
   ],
-  "planned_workflows": 810,
+  "planned_workflows": 540,
   "workflows_per_model": 270
 }
